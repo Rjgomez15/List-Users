@@ -1,0 +1,63 @@
+input{
+  outline: none;
+}
+
+.form {
+  border: 1px solid #ccca;
+  padding: 20px;
+  width: max-content;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+}
+
+.form-none{
+  display: none;
+}
+
+.form_equis{
+  position: absolute;
+  right: 16px;
+  top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 20px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 50%;
+}
+
+.form_equis:hover {
+  background-color: #0005;
+  color: white;
+}
+
+.form__btn{
+  display: block;
+  width: min-content;
+  padding: 8px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgb(2, 72, 177);
+  color: white;
+  cursor: pointer;
+}
+
+.form-container {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+
+}
